@@ -1,10 +1,15 @@
-console.log('javascript is connected!')
+'use strict';
+(function(){
+  
+  console.log('javascript is connected!');
 
-var $body = document.body;
-var button = document.getElementById('sup');
+  var $body = document.body;
+  var button = document.getElementById('sup');
 
-function sup(){
-  alert('sup');
-}
+  function sup(){
+    alert('sup');
+  }
 
-button.addEventListener('click', sup)
+  button.addEventListener('click', sup);
+
+})();
