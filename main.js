@@ -7,7 +7,7 @@
   var button = document.getElementById('sup');
 
   function sup(){
-    alert("sup yo");
+    alert('sup');
   }
 
   button.addEventListener('click', sup);
