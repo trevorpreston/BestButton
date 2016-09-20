@@ -1,0 +1,14 @@
+div {
+  position: fixed;
+  top: 40%;
+  left: 30%;
+  height: 200px;
+  width: 600px;
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
