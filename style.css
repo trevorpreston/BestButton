@@ -1,9 +1,7 @@
-button {
-  position: fixed;
-  top: 40%;
-  left: 30%;
+div {
+
   height: 200px;
-  width: 600px;
+  width: 40vw;
   background-color: rebeccapurple;
   color: white;
   font-size: 80px;
