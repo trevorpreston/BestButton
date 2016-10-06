@@ -1,17 +1,20 @@
 'use strict';
-(fu nction(){
+(function(){
 
-  console .log('javascript is conn ected!');
+  console.log('javascript is connected!');
+
+
+
+  function sup(){
+    alert('sup dude');
+  }
 
   var $body = document.body;
-  var button = docum ent.getElementById('sup');
+  var button = document.getElementById('sup');
 
-  function s up(){
-    alert('sup');
-  }
 
 
   //I made a change
-  button.addEventListener(  'click'   , _sup);
+  button.addEventListener('click', sup);
 
 })();
